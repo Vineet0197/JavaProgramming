@@ -2,7 +2,7 @@ package edu.coursera.assignment;
 
 /**
  * This is first class for Strings Assignment-2
- * @author GUR57366
+ * @author Vineet
  *
  */
 public class Part1 {
@@ -13,7 +13,7 @@ public class Part1 {
 	 * @param startIndex
 	 * @param stopCodon
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 * @return index of first occurrence of stop codon
 	 */
 	public int findStopCodon(String dna, int startIndex, String stopCodon) {
@@ -33,7 +33,7 @@ public class Part1 {
 	 * @param dna
 	 * @param startFrom
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 * @return gene
 	 */
 	public String findGene(String dna, int startFrom) {
@@ -54,7 +54,7 @@ public class Part1 {
 	 * This method prints all Genes present in DNA strand
 	 * @param dna
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 */
 	public void printAllGenes(String dna) {
 		int startIndex = 0;
@@ -70,7 +70,7 @@ public class Part1 {
 	/**
 	 * This method tests findStopCodon() method.
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 */
 	public void testFindStopCodon() {
 		String dna = "CCATGCGTTCATAA";
@@ -85,7 +85,7 @@ public class Part1 {
 	/**
 	 * This method tests findGene() method
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 */
 	public void testFindGene() {
 		String[] dna = {"CCGTAAGT", "CCATGGGACTTTAACCGTC", "CCATGGGACTTTAGCCGTAGCCTGA", "CCAGTGGTACCGT"};
@@ -101,7 +101,7 @@ public class Part1 {
 	 * This is main method for Part1 of 2nd Assignment
 	 * @param args
 	 * 
-	 * @author GUR57366
+	 * @author Vineet
 	 */
 	public static void main(String[] args) {
 		Part1 part1 = new Part1();
